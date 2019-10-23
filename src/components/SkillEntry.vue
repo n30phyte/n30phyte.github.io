@@ -1,6 +1,6 @@
 <template>
   <div id="skill-entry">
-    <div id="skill-name">{{ skillName }}</div>
+    <div id="skill-name"></div>
     <div id="skill-level">{{ skillLevel }}</div>
   </div>
 </template>
