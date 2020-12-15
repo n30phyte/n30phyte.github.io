@@ -12,6 +12,6 @@
 }
 .rounded {
   display: block;
-  width: 200px;
+  width: 15em;
   border-radius: 50%;
 }
