@@ -20,8 +20,8 @@
     "build": "npm-run-all build:*",
     "start": "npm-run-all -p start:*",
     "test": "react-scripts test",
-    "prepublish": "npm run build",
-    "publish": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
